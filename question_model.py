@@ -1,7 +1,5 @@
-class Question :
-    def __init__(self, QuestionText, QuestionAnswer):
-        self.defaultQuestion = QuestionText
-        self.answer = QuestionAnswer
+class Question:
 
-#new_question = Question ("stfggg", "True")
-#print(new_question.defaultQuestion)
+    def __init__(self, q_text, q_answer):
+        self.text = q_text
+        self.answer = q_answer
